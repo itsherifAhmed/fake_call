@@ -20,6 +20,9 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           text,
+          style: TextStyle(
+            color: Color(0xFFFECE00)
+          ),
 
         ),
       ],

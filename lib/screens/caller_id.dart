@@ -37,7 +37,8 @@ class _CallerIDState extends State<CallerID> {
         decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
-                "assets/images/image4.jpeg",
+                ///TODO:IMAGE4.jpg
+                "assets/images/image4.jpg",
               ),
               fit: BoxFit.cover),
         ),
@@ -68,6 +69,9 @@ class _CallerIDState extends State<CallerID> {
                   ),
                   child: Text(
                     "Caller ID",
+                    style: TextStyle(
+                      color: Color(0xFFFECE00),
+                    ),
 
                   ),
                 ),
@@ -80,6 +84,9 @@ class _CallerIDState extends State<CallerID> {
             ),
             Text(
               "Name",
+              style: TextStyle(
+                color: Color(0xFFFECE00),
+              ),
 
             ),
             const SizedBox(
@@ -87,7 +94,7 @@ class _CallerIDState extends State<CallerID> {
             ),
             TextField(
               style: const TextStyle(
-                color: Color(0xFFFECE00),
+                color: Colors.white,
                 fontSize: 22.0,
               ),
               textAlign: TextAlign.center,
@@ -114,6 +121,9 @@ class _CallerIDState extends State<CallerID> {
             ),
             Text(
               "Number",
+              style: TextStyle(
+                color: Color(0xFFFECE00),
+              ),
 
             ),
             const SizedBox(
@@ -121,7 +131,7 @@ class _CallerIDState extends State<CallerID> {
             ),
             TextField(
               style: const TextStyle(
-                color: Color(0xFFFECE00),
+                color: Colors.white,
                 fontSize: 22.0,
               ),
               textAlign: TextAlign.center,

@@ -16,86 +16,15 @@ class UserManual extends StatelessWidget {
                   colorFilter: ColorFilter.mode(
                       Colors.black.withOpacity(0.2), BlendMode.dstATop),
                   image: const AssetImage(
-                    "assets/images/image5.jpeg",
+
+                    "assets/images/image4.jpg",
                   ),
                   fit: BoxFit.cover),
             ),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(
-                  '➊ What does the app do?',
-
-                ),
-                const SizedBox(
-                  height: 5.0,
-                ),
-                Text(
-                  'It\'s a prank app. You can receive fake calls by clicking a button '
-                  'or setting a timer. You can also add the contact details of your choice.',
-
-                ),
-                const SizedBox(
-                  height: 15.0,
-                ),
-                Text(
-                  '➋ For how long the call be active?',
-
-                ),
-                const SizedBox(
-                  height: 5.0,
-                ),
-                Text(
-                  'As long as you want unless and until you press the cancel button.',
-
-                ),
-                const SizedBox(
-                  height: 15.0,
-                ),
-                Text(
-                  '➌ Can I lock the screen after setting the timer?',
-
-                ),
-                const SizedBox(
-                  height: 5.0,
-                ),
-                Text(
-                  'Yes, you can do that. As soon as the time is up, you '
-                  'will hear your caller tune, but no calling screen will be visible.'
-                  'The calling screen will only be visible after you unlock the phone.\n'
-                  'PS: You have to be on the timer screen.',
-
-                ),
-                const SizedBox(
-                  height: 15.0,
-                ),
-                Text(
-                  '➍ Will I receive a call if I set the timer and let the app run in the background?',
-                ),
-                const SizedBox(
-                  height: 5.0,
-                ),
-                Text(
-                  'Yes, you will receive the call. You will only hear the caller'
-                  'tune first, and then on clicking the app in the background you will be able to see the calling screen.',
-
-                ),
-                const SizedBox(
-                  height: 15.0,
-                ),
-                Text(
-                  '➎ Can I make a gesture to receive fake calls?',
-
-                ),
-                const SizedBox(
-                  height: 5.0,
-                ),
-                Text(
-                  'No. Currently your android operating system won\'t allow that. But maybe in the future'
-                  ' we will add that functionality.',
-
-
-                ),
+                  Image.asset("assets/images/image4.jpg"),
               ],
             ),
           ),

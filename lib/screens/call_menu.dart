@@ -40,7 +40,8 @@ class _CallMenuState extends State<CallMenu> {
         decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
-                "assets/images/image4.jpeg",
+                ///TODO: IMAGE4
+                "assets/images/image4.jpg",
               ),
               fit: BoxFit.cover),
         ),

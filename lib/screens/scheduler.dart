@@ -57,7 +57,8 @@ class _SchedulerState extends State<Scheduler> {
         decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
-                "assets/images/image4.jpeg",
+                ///TODO:IMAGE4.jpg
+                "assets/images/image4.jpg",
               ),
               fit: BoxFit.cover),
         ),
@@ -163,6 +164,9 @@ class _SchedulerState extends State<Scheduler> {
                 ),
                 Text(
                   "Name",
+                  style: TextStyle(
+                    color: Color(0xFFFECE00),
+                  ),
 
                 ),
                 const SizedBox(
@@ -170,7 +174,7 @@ class _SchedulerState extends State<Scheduler> {
                 ),
                 TextField(
                   style: const TextStyle(
-                    color: Color(0xFFFECE00),
+                    color: Colors.white,
                     fontSize: 22.0,
                   ),
                   textAlign: TextAlign.center,
@@ -197,6 +201,9 @@ class _SchedulerState extends State<Scheduler> {
                 ),
                 Text(
                   "Number",
+                  style: TextStyle(
+                    color: Color(0xFFFECE00),
+                  ),
 
                 ),
                 const SizedBox(
@@ -204,7 +211,7 @@ class _SchedulerState extends State<Scheduler> {
                 ),
                 TextField(
                   style: const TextStyle(
-                    color: const Color(0xFFFECE00),
+                    color: Colors.white,
                     fontSize: 22.0,
                   ),
                   textAlign: TextAlign.center,
